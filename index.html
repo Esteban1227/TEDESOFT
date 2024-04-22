@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TedeSoft</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/logoUnivalle.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="is-preload">
+    <canvas id="canvas"></canvas>
+
+    <!-- Header -->
+    <div id="header">
+      <!-- <span class="logo icon fa-paper-plane"></span> -->
+      <img 
+      class="header_logo"
+        src="./images/logoUnivalle.png"
+        alt=""
+      />
+      <h1>TedeSoft</h1>
+      <p>"Un buen desarrollador de software trabaja con disciplina y constancia desde el primer día"<br>
+        - Omar Bradley -
+      </p>
+      <a class="header_btn" target="_blank" href="https://yumbo.univalle.edu.co/formacion/formacion-pregrado/pregrado-tecnologia-desarrollo-software/tecnologia-desarrollo-software-objetivos">Mas Informacion</a>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+      <!-- Calculadora -->
+
+      <div class="main_calculadora major container medium">
+        <div class="main_calculadora_change">
+          <div class="main_calculadora_change_binaryToText active">
+            <span>Binario a texto</span>
+          </div>
+          <div class="main_calculadora_change_textToBinary">
+            <span>Texto a binario</span>
+          </div>
+        </div>
+        <div class="main_calculadora_binaryToText">
+          <h3>Convertir Binario a Texto</h3>
+          <label for="binaryInput"> Código binario: </label>
+          <textarea
+            id="binaryInput"
+            name="binaryInput"
+            placeholder="Ingresa el número binario aquí"
+          ></textarea>
+
+          <button id="btnBinaryToText">Convertir</button>
+
+          <label for="binaryInput"> Texto: </label>
+          <textarea readonly id="result" placeholder="Hola"></textarea>
+          <button id="btnBinaryToTextCopy">Copiar</button>
+        </div>
+        <div class="main_calculadora_textToBinary inactive">
+          <h3>Convertir Texto a Binario</h3>
+          <label for="textInput"> Texto: </label>
+          <textarea
+            id="textInput"
+            name="textInput"
+            placeholder="Ingresa el texto aquí"
+          ></textarea>
+          <button id="btnTextToBinary">Convertir</button>
+          <label for="textInput"> Codigo binario: </label>
+          <textarea
+            readonly
+            id="binaryResult"
+            placeholder="10101010"
+          ></textarea>
+          <button id="btnTextToBinaryCopy">Copiar</button>
+        </div>
+      </div>
+      <div class="box alt container main_objective" >
+        <h2>Objetivos</h2>
+        <div class="main_objective_container"> 
+
+          <div class="main_objective_container_left">
+            <h3>General</h3>
+            <p>
+              Formar profesionales en Tecnología en Desarrollo de Software capaces
+              de dar soluciones a problemas reales mediante el desarrollo de
+              software, el diseño de interacciones humano-computador o la gestión de
+              infraestructura TIC. Capaces de aplicar diversas áreas de la
+              computación y destacándose por su formación científica, tecnológica,
+              profesional y personal, con habilidad para mantenerse actualizados a
+              medida que la disciplina evoluciona y desempeñarse en cualquier lugar
+              del mundo.
+            </p>
+  
+          </div>
+          <div class="main_objective_container_right"> 
+            <h3>Especificos</h3>
+            <ul>
+              <ol>
+                1. Interpretar y aplicar ciencias y herramientas propias de la Tecnología en Desarrollo de Software.
+              </ol>
+              <ol>
+                2. Fomentar la adaptabilidad al cambio tecnológico mediante una formación continua.
+              </ol>
+              <ol>
+                3. Resolver problemas mediante soluciones creativas y sostenibles basadas en TIC y tendencias tecnológicas.
+                
+              </ol>
+              <ol>
+                4. Desarrollar habilidades de comunicación oral y escrita, así como trabajo en equipo.
+                
+              </ol>
+              <ol>
+                5. Preparar para desempeñarse globalmente en diversos campos de la computación y TIC.
+                
+              </ol>
+              <ol>
+                6. Promover el compromiso social y el respeto por valores culturales, históricos, sociales y ambientales.
+    
+              </ol>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="box alt container main_occupationalProfile">
+        <h2 class="main_occupationalProfile_title">Perfil ocupacional</h2>
+        <section class="feature left">
+          <a
+            target="_blank"
+            href="https://yumbo.univalle.edu.co/formacion/formacion-pregrado/pregrado-tecnologia-desarrollo-software/tecnologia-desarrollo-software-perfil"
+            class="main_occupationalProfile_card image icon solid fa-code"
+          ></a>
+          <div class="content">
+            <h3>Desarrollo de software</h3>
+
+            <ul>
+              <li>Desarrollador de software</li>
+              <li>Tecnólogo en pruebas de software</li>
+            </ul>
+          </div>
+        </section>
+        <section class="feature right">
+          <a
+            target="_blank"
+            href="https://yumbo.univalle.edu.co/formacion/formacion-pregrado/pregrado-tecnologia-desarrollo-software/tecnologia-desarrollo-software-perfil"
+            class="main_occupationalProfile_card image icon solid fa-mobile-alt"
+          ></a>
+          <div class="content">
+            <h3>
+              Diseño y desarrollo de interacciones entre el humano y el
+              computador
+            </h3>
+
+            <ul>
+              <li>Diseñador de Interacción y Usabilidad <br /></li>
+              <li>Diseñador y Consultor UI/UX <br /></li>
+              <li>Maquetador Front-End</li>
+            </ul>
+          </div>
+        </section>
+        <section class="feature left">
+          <a
+            target="_blank"
+            href="https://yumbo.univalle.edu.co/formacion/formacion-pregrado/pregrado-tecnologia-desarrollo-software/tecnologia-desarrollo-software-perfil"
+            class="image icon solid fa-signal main_occupationalProfile_card"
+          ></a>
+          <div class="content">
+            <h3>Gestión de infraestructura de TIC</h3>
+
+            <ul>
+              <li>Asistente/Auxiliar de infraestructura informática</li>
+              <li>Administrador de bases de datos</li>
+
+              <li>Tecnólogo de TIC</li>
+
+              <li>Tecnólogo de Centro de Operaciones de Red</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/backgroundHacker.js"></script>
+    <script src="assets/js/binaryToText.js"></script>
+    <script src="assets/js/textToBinary.js"></script>
+    <script src="assets/js/changeCalculator.js"></script>
+  </body>
+</html>
