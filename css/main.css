@@ -1404,6 +1404,10 @@ ul.icons li span:hover {
   margin-bottom: 50px;
 }
 
+.main_calculadora textarea{
+  height: 300px;
+}
+
 #canvas {
   background: #111111;
   position: absolute;
